@@ -1,0 +1,2 @@
+# KraakenStuffLib
+KiCad library

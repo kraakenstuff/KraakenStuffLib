@@ -1,4 +1,4 @@
-(module "BLOK TERMINAL 2 KONTAKTA" (layer F.Cu) (tedit 5BBB3964)
+(module "Terminal 2 contacts" (layer F.Cu) (tedit 5BBB3964)
   (fp_text reference J1 (at 0 10.922) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

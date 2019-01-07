@@ -1,0 +1,3 @@
+[submodule "3D/kicad-3dmodels"]
+	path = 3D/kicad-3dmodels
+	url = https://github.com/dhaillant/kicad-3dmodels.git

@@ -1,4 +1,4 @@
-(module POT-9MM-ALPHA (layer F.Cu) (tedit 5C6D4947)
+(module POT-9MM-ALPHA (layer F.Cu) (tedit 5E03EFA9)
   (fp_text reference R31 (at -1.905 -4.0132) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
   )
@@ -22,12 +22,7 @@
   (pad 1 thru_hole circle (at 2.539837 -7.012243 270) (size 1.8034 1.8034) (drill 0.889) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 4.394037 -0.001843) (size 2.667 2.667) (drill 2.0574) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -4.394363 -0.001843) (size 2.667 2.667) (drill 2.0574) (layers *.Cu *.Mask))
-  (model ${GDOC}/_lib/packages3d/RK09K1130-20.wrl
-    (offset (xyz 0 0 6.045199909210205))
-    (scale (xyz 393 393 393))
-    (rotate (xyz 180 0 0))
-  )
-  (model C:/Users/xxmarjdm/Documents/KiCad/KraakenStuffLib/3D/kicad-3dmodels/potentiometers/ALPS-RK09K.step
+  (model ${KRAAKENSTUFF_DIR}/3D/kicad-3dmodels/potentiometers/ALPS-RK09K.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

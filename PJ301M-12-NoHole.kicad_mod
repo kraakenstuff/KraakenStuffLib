@@ -1,4 +1,4 @@
-(module PJ301M-12-NoHole (layer F.Cu) (tedit 5CBDAEB0)
+(module PJ301M-12-NoHole (layer F.Cu) (tedit 5E03F459)
   (fp_text reference ~ (at 3.8354 -3.81) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1524)) (justify left bottom))
   )
@@ -20,12 +20,7 @@
   (pad T thru_hole circle (at -5.207 0) (size 1.9304 1.9304) (drill 1.143) (layers *.Cu *.Mask)
     (solder_mask_margin 0.127))
   (pad HOLE smd circle (at 0 0) (size 1.524 1.524) (layers F.Cu))
-  (model ${GDOC}/_lib/packages3d/PJ301M-12.WRL
-    (offset (xyz -0.8889999866485596 0.4063999938964844 0))
-    (scale (xyz 393 393 393))
-    (rotate (xyz 0 0 -90))
-  )
-  (model "C:/Users/xxmarjdm/Documents/KiCad/KraakenStuffLib/3D/PJ301M-12 Thonkiconn v0.2.stp"
+  (model "${KRAAKENSTUFF_DIR}/3D/PJ301M-12 Thonkiconn v0.2.stp"
     (offset (xyz -1 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

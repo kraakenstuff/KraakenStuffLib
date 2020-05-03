@@ -1,4 +1,4 @@
-(module "Header 1x4" (layer F.Cu) (tedit 5B751F15)
+(module Header1x4 (layer F.Cu) (tedit 5E03F221)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 2 thru_hole roundrect (at 0 -1.27) (size 2.048 1.524) (drill 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.33))
   (pad 3 thru_hole roundrect (at 0 1.27) (size 2.048 1.524) (drill 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.33))
   (pad 4 thru_hole roundrect (at 0 3.81) (size 2.048 1.524) (drill 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.33))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step
+    (offset (xyz 0 3.71 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

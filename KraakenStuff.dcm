@@ -1,3 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC138
+D 3 to 8 line decoder demultiplexer
+F https://www.diodes.com/assets/Datasheets/74HC138.pdf
+$ENDCMP
+#
+$CMP 74HC165
+D 8-Bit Parallel-Load Shift Register
+F http://www.ti.com/lit/ds/symlink/sn74hc165.pdf
+$ENDCMP
+#
+$CMP ABM3B
+D Abracon Ceramic SMD Crystal
+F https://eu.mouser.com/datasheet/2/3/abm3b-39910.pdf
+$ENDCMP
+#
+$CMP WM8988
+D Low power, high quality stereo CODEC
+F https://statics.cirrus.com/pubs/proDatasheet/WM8988_Rev4.2.pdf
+$ENDCMP
+#
 #End Doc Library
